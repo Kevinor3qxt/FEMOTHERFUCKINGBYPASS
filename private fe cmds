@@ -1,0 +1,109 @@
+local Player = game.Players.LocalPlayer
+Player.Chatted:connect(function(cht)
+	if cht:match(".Re") then
+        game.Players.LocalPlayer.Character:BreakJoints()
+elseif cht:match('.WingedMaster')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/fewingled/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".Spiderman") then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/spiderman/main/main"))()
+elseif cht:match('.HumanCar')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/humancar/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".Joy") then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/joy/main/main"))()
+elseif cht:match('.LongLegs')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/dafeet/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".Creepy") then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/crawler/main/main"))()
+elseif cht:match('.JF')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/jerkoff/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".pp") then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/pens/main/main"))()
+elseif cht:match('.HumanChair')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/chair/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".HoldHats") then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/holdhats/main/main"))()
+elseif cht:match('.KMS')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/necksnap/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".Sad") then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/sad/main/main"))()
+elseif cht:match('.Chill')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/chill/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".Sonic") then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/sonic/main/main"))()
+elseif cht:match('.Spider')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/cursedspider/main/main"))()
+
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".Amongus") then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/amogus/main/main"))()
+elseif cht:match('.Magician')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/levitator/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".Batman") then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/bat/main/main"))()
+elseif cht:match('.LFighter')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/ae/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".WingedHuman") then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/wingedhuman/main/main"))()
+elseif cht:match('.Idiot')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/idiote/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".Freddy") then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/fred/main/main"))()
+       game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Freddy Controls";
+    Text = "1 to show up and 2 to become invisible";
+})
+elseif cht:match('.Gale')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/galefigher/main/main"))()
+    end
+end)
+Player.Chatted:connect(function(cht)
+	if cht:match(".OnePunchMan") then
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/work/main/main"))()
+elseif cht:match('.HumanStick')  then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/humanstick/main/main"))()
+    end
+end)
+
+
+-- now we're going to add a simple script that lets us know when the script is working
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "._. Admin";
+    Text = "private";
+})
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Scripts Auto Reanimate AKA Serverside";
+    Text = "By 3qxt#9919";
+})
