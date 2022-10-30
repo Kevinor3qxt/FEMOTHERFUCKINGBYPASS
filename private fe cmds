@@ -103,14 +103,12 @@ elseif cht:match('.HumanStick')  then
     end
 end)
 
-
--- now we're going to add a simple script that lets us know when the script is working
-
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "._. Admin";
-    Text = "private";
+    Text = "backdooring...";
 })
+wait(5)
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Scripts Auto Reanimate AKA Serverside";
-    Text = "By 3qxt#9919";
+    Title = "Game backdoored";
+    Text = "By 3qxt#9919 enjoy";
 })
