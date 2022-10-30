@@ -15,7 +15,7 @@ elseif cht:match('.HumanCar')  then
 end)
 Player.Chatted:connect(function(cht)
 	if cht:match(".Scp096") then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/spiderman/main/main"))()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/Kevinor3qxt/FEMOTHERFUCKINGBYPASS/main/SCP-096")()
     end
 end)
 Player.Chatted:connect(function(cht)
